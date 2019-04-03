@@ -1,7 +1,6 @@
-# Examples BASIC and FORM authentication
+# Examples of BASIC and FORM authentication
 
 To make the examples work the `tomcat-users.xml` file must contain users and roles.
-
 
 ```
 <?xml version='1.0' encoding='utf-8'?>
@@ -17,3 +16,7 @@ To make the examples work the `tomcat-users.xml` file must contain users and rol
   <user username="ide" ... />
 </tomcat-users>
 ```
+
+You can find the path to the file in `Catalina Base`:
+
+![Catalina base](tomcat-users-are-here.png)
